@@ -73,3 +73,16 @@ main .container {
   max-width: 516px;
   margin-bottom: 100px;
 }
+
+@media only screen and (max-width: 769px) {
+  .post {
+    padding: 0;
+    background-image: none;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  main {
+    padding-top: 50px;
+  }
+}
