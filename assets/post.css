@@ -1,0 +1,109 @@
+main .container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titulo h1 {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 57px;
+  text-align: center;
+  color: #ff4081;
+  margin-top: 100px;
+}
+
+.titulo p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #9d9d9d;
+}
+
+.post img {
+  margin: 107px auto 64px;
+  text-align: center;
+  width: 100%;
+}
+
+.texto {
+  margin-bottom: 111px;
+}
+
+.texto p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.texto h4 {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 29px;
+  color: #2e948a;
+  padding: 50px 0 20px 0;
+}
+
+.parte3 {
+  background: #f7f7f7;
+}
+
+.lista-cursos h1 {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 57px;
+  display: flex;
+  text-align: center;
+  color: #ff4081;
+  margin: 50px 30% auto;
+}
+
+.lista-cursos {
+  display: flex;
+  justify-content: space-between;
+  background: #f5f5f5;
+  padding: 117px 0;
+}
+
+.lista-curso .curso {
+  width: 344px;
+  text-align: center;
+}
+
+.lista-cursos .curso img {
+  max-height: 270px;
+  margin-bottom: 45px;
+}
+
+.lista-cursos .curso h3 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ff4081;
+  margin-bottom: 23px;
+}
+
+.lista-cursos .curso p {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+  width: 293px;
+  margin-bottom: 26px;
+  text-align: center;
+}
+
+.lista-cursos .curso a {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  color: white;
+  background: #ff4081;
+  border: none;
+  border-radius: 62px;
+  padding: 12px 52px;
+  text-decoration: none;
+}

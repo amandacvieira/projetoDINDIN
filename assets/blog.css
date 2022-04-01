@@ -1,0 +1,75 @@
+main .container {
+  flex-direction: column;
+}
+
+.post {
+  justify-items: center;
+  background: url(/dindin-imagens/ilustra-blog.png) 100% 100% no-repeat;
+  padding: 90px 500px 90px 0;
+  height: 312px;
+  margin: 93px 209px 115px;
+}
+
+.post h1 {
+  color: #ff4081;
+  font-size: 55px;
+  line-height: 63px;
+  font-weight: 700;
+  width: 512px;
+  margin-bottom: 38px;
+}
+
+.post p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #555555;
+  width: 461px;
+  margin-bottom: 38px;
+}
+
+.lista-posts {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.posts-blog h3 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+}
+
+.posts-blog h3 a {
+  text-decoration: none;
+  color: #ff4081;
+  font-size: 30px;
+}
+
+.posts-blog .posts-blog {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 115px;
+}
+
+.posts-blog img {
+  max-height: 193px;
+  margin: 0 0 11px;
+}
+
+.posts-blog h3 {
+  margin: 0;
+  padding-bottom: 19px;
+}
+
+.posts-blog p {
+  color: #000000;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+  align-items: center;
+  max-width: 516px;
+  margin-bottom: 100px;
+}

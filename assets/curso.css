@@ -1,0 +1,72 @@
+main .container {
+  flex-direction: column;
+}
+
+.apresentacao {
+  justify-items: center;
+  background: url(/dindin-imagens/ilustra-poupando.png) 100% 100% no-repeat;
+  padding: 90px 500px 90px 0;
+  height: 312px;
+  margin: 93px 209px 115px;
+}
+
+.apresentacao h1 {
+  color: #ff4081;
+  font-size: 55px;
+  line-height: 63px;
+  font-weight: 700;
+  width: 512px;
+  margin-bottom: 38px;
+}
+
+.apresentacao p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #555555;
+  width: 461px;
+  margin-bottom: 38px;
+}
+
+.videos {
+  display: flex;
+  border-bottom: 5px solid #c4c4c4;
+  margin: 75px;
+  background: #f7f7f7;
+}
+
+.videos:last-child {
+  border-bottom: none;
+}
+
+.videos iframe {
+  padding-right: 53px;
+
+  margin-bottom: 68px;
+}
+
+.videos .descrição {
+  flex-direction: column;
+
+  width: 462px;
+  height: 261px;
+}
+
+.videos .descricao h3 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  text-align: left;
+  color: #ff4081;
+}
+
+.videos .descricao p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  align-items: left;
+  width: 501px;
+  height: 195px;
+  padding-top: 26px;
+}

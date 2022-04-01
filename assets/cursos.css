@@ -1,0 +1,75 @@
+main .container {
+  flex-direction: column;
+}
+
+.titulo {
+  margin: 120px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 69px;
+  text-transform: capitalize;
+  color: #ff4081;
+}
+
+.titulo h4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #555555;
+}
+
+.cursos {
+  display: flex;
+  border-bottom: 5px solid #c4c4c4;
+}
+
+.cursos:last-child {
+  border-bottom: none;
+}
+
+.cursos img {
+  padding-right: 53px;
+  margin-left: 40px;
+  margin-bottom: 68px;
+  margin-top: 100px;
+}
+
+.cursos .descrição {
+  flex-direction: column;
+  padding: 0 76px;
+}
+
+.cursos .descricao h3 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  text-align: center;
+  color: #ff4081;
+  margin-top: 108px;
+  text-align: left;
+}
+
+.cursos .descricao p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  width: 724px;
+  padding-top: 37px;
+  padding-bottom: 66px;
+}
+
+.cursos .descricao a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  background: #2e948a;
+  border-radius: 62px;
+  text-decoration: none;
+  padding: 13px 8px 13px 8px;
+}
